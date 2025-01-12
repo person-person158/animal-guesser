@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Animal Guessing Game</h1>
+        <p>Think of an animal and I'll try to guess it by asking yes/no questions!</p>
+        
+        <div id="game-area">
+            <div id="question-area">
+                <p id="question">Ready to start?</p>
+                <div class="buttons">
+                    <button id="yes-btn">Yes</button>
+                    <button id="no-btn">No</button>
+                </div>
+            </div>
+            <div id="result-area" style="display: none;">
+                <p id="result"></p>
+                <button id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
